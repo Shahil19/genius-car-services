@@ -1,0 +1,25 @@
+.service-section {
+    margin: 0 20px;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
