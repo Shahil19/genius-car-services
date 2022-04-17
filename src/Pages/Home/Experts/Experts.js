@@ -18,7 +18,7 @@ const experts = [
 const Experts = () => {
 
     return (
-        <div className='container mt-5'>
+        <section id='experts' className='container mt-5'>
             <h2 className='text-center mb-3'>Our Experts</h2>
             <div className='row row-cols-1 row-cols-md-3  g-4'>
                 {
@@ -28,7 +28,7 @@ const Experts = () => {
                     ></Expert>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 
