@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -22,6 +23,7 @@ const Services = () => {
                     ></Service>)
                 }
             </div>
+            <Outlet></Outlet>
         </section>
     );
 };
