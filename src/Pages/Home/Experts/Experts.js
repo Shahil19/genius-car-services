@@ -20,7 +20,7 @@ const Experts = () => {
     return (
         <div className='container mt-5'>
             <h2 className='text-center mb-3'>Our Experts</h2>
-            <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
+            <div className='row row-cols-1 row-cols-md-3  g-4'>
                 {
                     experts.map(expert => <Expert
                         key={expert.id}
